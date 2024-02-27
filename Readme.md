@@ -1,25 +1,19 @@
-# RotTom CLI
+# Slack Bot with Node.js
 
-RotTom CLI is a command-line tool that fetches and displays movie information from Rotten Tomatoes RSS feeds based on user-specified genres and rating thresholds.
+## Description
+This project provides a Node.js implementation of a Slack bot using the Slack Web API. It allows the bot to interact with messages in a specific Slack channel, parse commands, and respond accordingly.
 
-## Features
-
-- Fetches movie data from Rotten Tomatoes RSS feeds.
-- Filters movies by genre and rating threshold.
-- Displays movie name, genre, and rating.
+## Prerequisites
+- Node.js installed on your system
+- Access to a Slack workspace
+- Slack bot user OAuth access token
 
 ## Installation
+1. Clone the repository or download the project files.
+2. Navigate to the project directory in your terminal.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/rottom-cli.git
+## Configuration
+1. Create a Slack App, add a bot user, and install the app to your Slack workspace.
+2. Obtain the bot user OAuth access token from your Slack App configuration.
+3. Create a `.env` file in the project directory and add the following lines:
 
-
-- npm install
-- node index.js [options]
-
-# Display comedy movies with a rating above 7.5
-node index.js --genre comedy --rating 7.5
-
-# Display action movies with a rating above 6.0
-node index.js --genre action
