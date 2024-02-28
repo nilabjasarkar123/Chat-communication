@@ -1,0 +1,23 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "RotTom CLI is a command-line tool that fetches and displays movie information from Rotten Tomatoes RSS feeds based on user-specified genres and rating thresholds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilabjasarkar123/RotTom-CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilabjasarkar123/RotTom-CLI/issues"
+  },
+  "homepage": "https://github.com/nilabjasarkar123/RotTom-CLI#readme",
+  "dependencies": {
+    "@slack/web-api": "^7.0.2"
+  }
+}
