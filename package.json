@@ -1,7 +1,7 @@
 {
   "name": "slackbot",
   "version": "1.0.0",
-  "description": "RotTom CLI is a command-line tool that fetches and displays movie information from Rotten Tomatoes RSS feeds based on user-specified genres and rating thresholds.",
+  "description": "This project provides a Node.js implementation of a Slack bot using the Slack Web API. It allows the bot to interact with messages in a specific Slack channel, parse commands, and respond accordingly.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/nilabjasarkar123/RotTom-CLI.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -18,6 +17,7 @@
   },
   "homepage": "https://github.com/nilabjasarkar123/RotTom-CLI#readme",
   "dependencies": {
-    "@slack/web-api": "^7.0.2"
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4"
   }
 }

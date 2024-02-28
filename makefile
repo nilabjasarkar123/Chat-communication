@@ -1,2 +1,0 @@
-SLACK_BOT_TOKEN=your_bot_user_oauth_access_token
-SLACK_CHANNEL_ID=your_channel_id
