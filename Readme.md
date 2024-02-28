@@ -13,7 +13,7 @@ This is a simple chat application built with Node.js, Express, and Socket.IO.
 1. **Clone this repository:**
 
     ```bash
-    git clone https://github.com/your-username/simple-chat-app.git
+    git clone https://github.com/nilabjasarkar123/simple-chat-app.git
     ```
 
 2. **Navigate to the project directory:**
