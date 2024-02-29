@@ -53,3 +53,6 @@ This is a simple chat application built with Node.js, Express, and Socket.IO.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributors
+- [Adarsh Kumar Gupta](https://github.com/johndoe](https://github.com/akgupta5799)
